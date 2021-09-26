@@ -1,0 +1,13 @@
+
+header > nav > p.logo {
+
+}
+
+header > nav > p:nth-of-type(2) {
+  float:left;
+  margin:0 1em;
+}
+
+section > footer > span.alignright > a {
+  margin: 0 0.5em;
+}
