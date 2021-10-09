@@ -4,14 +4,18 @@ header > nav > ul:first-child {
 }
 
 header > nav > ul:first-child a em {
-  display:none;
+  display: none;
 }
 
 header > nav > p {
-  float:left;
-  margin:0 1em;
+  float: left;
+  margin: 0 1em;
 }
 
 section > footer > span.alignright > a {
   margin: 0 0.5em;
+}
+
+section a[href="#"] {
+  text-decoration: line-through;
 }
