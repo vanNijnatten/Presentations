@@ -66,7 +66,7 @@
 
   <main role="main">
     <article id="webslides">
-      <!-- Slide 1 -->
+      <!-- Slide (Cover) -->
       <section class="bg-black-blue aligncenter">
        <span class="background dark" style="background-image:url('https://source.unsplash.com/hvSr_CVecVI/')"></span>
         <div class="wrap">
@@ -101,9 +101,9 @@
           </span>
         </footer>
       </section>
-      <!-- / Slide 1-->
+      <!-- / Slide (Cover)-->
 
-      <!-- Slide 2 -->
+      <!-- Slide (Prerequisites) -->
       <section>
         <div class="wrap">
           <p class="text-context">Prerequisites</p>
@@ -113,9 +113,9 @@
           </ul>
         </div>
       </section>
-      <!-- / Slide 2 -->
+      <!-- / Slide (Prerequisites) -->
 
-      <!-- Slide 3 -->
+      <!-- Slide (Bash Logo) -->
       <section>
         <img src="../common/images/logos/Gnu-bash-logo.svg" />
         <footer>
@@ -127,9 +127,9 @@
           </span>
         </footer>
       </section>
-      <!-- / Slide 3 -->
+      <!-- / Slide (Bash Logo) -->
 
-      <!-- Slide 4 -->
+      <!-- Slide (ToC) -->
       <section>
         <div class="wrap size-50">
         <h3>Table of Contents</h3>
@@ -158,7 +158,7 @@
           </div>
         </div>
       </section>
-      <!-- / Slide 4 -->
+      <!-- / Slide (ToC) -->
 
       <!-- Slide 5 -->
       <section class="fullscreen">
@@ -195,45 +195,77 @@
             <li>REPL</li>
             <li>Script / shebang</li>
 
-            <li>variables</li>
-              <li>- set/unset/export</li>
-            <li>reading input, printing output</li>
-              <li>- stdin, stdout</li>
-              <li>- piping |, redirecting >, >>, < </li>
-            <li>flow control</li>
-              <li>- if, then, else</li>
-                <li>- - testing variables w/ [] and [[]]</li>
-                <li>- - and or not</li>
-              <li>- for and while loops</li>
-                <li>- - breaks</li>
-            <li>integers and arrays</li>
-              <li>- arithmetics, (( )), https://opensource.com/article/18/5/you-dont-know-bash-intro-bash-arrays</li>
-            <li>advanced</li>
-              <li>- shifts, getopts https://stackoverflow.com/questions/16483119/an-example-of-how-to-use-getopts-in-bash</li>
-              <li>- set options (set -o/+o)</li>
-            <li>functions</li>
-              <li>- arguments $#, $*, $1, $2</li>
-              <li>- default values</li>
-              <li>- optionals</li>
-            <li>strings</li>
-              <li>- search and replace ${var/pattern/replacement/}</li>
-            <li>subcommands</li>
-              <li>$(), <(), &, wait</li>
-            <li></li>
+            <li>variables
+              <ul>
+                <li>set/unset/export</li>
+              </ul>
+            </li>
+            <li>reading input, printing output
+              <ul>
+                <li>stdin, stdout, stderr, 3>1&, 2>1&, /dev/fd, redirection</li>
+                <li>piping |, redirecting >, >>, < </li>
+              </ul>
+            </li>
+            <li>flow control
+              <ul>
+                <li>if, then, else
+                  <ul>
+                    <li>testing variables w/ [] and [[]]</li>
+                    <li>and or not</li>
+                  </ul>
+                </li>
+                <li>for and while loops
+                  <ul>
+                    <li>breaks</li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li>integers and arrays
+              <ul>
+                <li>arithmetics, (( )), https://opensource.com/article/18/5/you-dont-know-bash-intro-bash-arrays</li>
+              </ul>
+            </li>
+            <li>advanced
+              <ul>
+                <li>shifts, getopts https://stackoverflow.com/questions/16483119/an-example-of-how-to-use-getopts-in-bash</li>
+                <li>set options (set -o/+o)</li>
+              </ul>
+            </li>
+            <li>functions
+              <ul>
+                <li>arguments $#, $*, $1, $2</li>
+                <li>default values</li>
+                <li>optionals</li>
+              </ul>
+            </li>
+            <li>strings
+              <ul>
+                <li>search and replace ${var/pattern/replacement/}</li>
+              </ul>
+            </li>
+            <li>subcommands
+              <ul>
+                <li>$(), <(), &, wait</li>
+              </ul>
+            </li>
 
-            <li>Build in functionality</li>
-              <li>https://tldp.org/LDP/Bash-Beginners-Guide/html/sect_01_03.html</li>
-              <li>- run scripts, debugging (bash -x, declare -t VAR=text, trap "echo $VAR" DEBUG)</li>
-              <li>- cd,popd,pushd</li>
-              <li>- jobs, ctrl-z, bg, fg</li>
+            <li>Build in functionality
+              <ul>
+                <li>https://tldp.org/LDP/Bash-Beginners-Guide/html/sect_01_03.html</li>
+                <li>run scripts, debugging (bash -x, declare -t VAR=text, trap "echo $VAR" DEBUG)</li>
+                <li>cd,popd,pushd</li>
+                <li>jobs, ctrl-z, bg, fg</li>
+              </ul>
+            </li>
 
-            <li>not buildin functionality</li>
-              <li>- ps,top,htop</li>
-              <li>- find</li>
-              <li>- mkdir,touch,rm,cp,mv</li>
-              <li>- </li>
-              <li>- </li>
-              <li>- </li>
+            <li>not buildin functionality
+              <ul>
+                <li>ps,top,htop</li>
+                <li>find</li>
+                <li>mkdir,touch,rm,cp,mv</li>
+              </ul>
+            </li>
             <li>https://www.onlc.com/outline.asp?ccode=xlbash</li>
           </ul>
         </div>
@@ -248,7 +280,7 @@
       </section>
       <!-- / Slide 7 -->
 
-      <!-- Slide 8 -->
+      <!-- Slide (End) -->
       <section class="aligncenter slide current">
         <div class="wrap">
           <h2><strong>The end</strong></h2>
@@ -274,7 +306,7 @@
           </span>
         </footer>
       </section>
-      <!-- / Slide 8 -->
+      <!-- / Slide (End) -->
 
     </article>
   <main>
