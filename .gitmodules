@@ -22,3 +22,6 @@
 [submodule "modules/Presentations.Statistics"]
 	path = modules/Presentations.Statistics
 	url = git@github.com:vanNijnatten/Presentations.Statistics.git
+[submodule "modules/Presentations.Programming"]
+	path = modules/Presentations.Programming
+	url = git@github.com:vanNijnatten/Presentations.Programming.git
