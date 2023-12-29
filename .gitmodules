@@ -1,27 +1,4 @@
 [submodule "modules/Presentations.Common"]
 	path = modules/Presentations.Common
 	url = git@github.com:vanNijnatten/Presentations.Common.git
-[submodule "modules/Presentations.Bioinformatics"]
-	path = modules/Presentations.Bioinformatics
-	url = git@github.com:vanNijnatten/Presentations.Bioinformatics.git
-[submodule "modules/Presentations.IntroComputerScience"]
-	path = modules/Presentations.IntroComputerScience
-	url = git@github.com:vanNijnatten/Presentations.IntroComputerScience.git
-[submodule "modules/Presentations.Linux"]
-	path = modules/Presentations.Linux
-	url = git@github.com:vanNijnatten/Presentations.Linux.git
-[submodule "modules/Presentations.MachineLearning"]
-	path = modules/Presentations.MachineLearning
-	url = git@github.com:vanNijnatten/Presentations.MachineLearning.git
-[submodule "modules/Presentations.Python"]
-	path = modules/Presentations.Python
-	url = git@github.com:vanNijnatten/Presentations.Python.git
-[submodule "modules/Presentations.R"]
-	path = modules/Presentations.R
-	url = git@github.com:vanNijnatten/Presentations.R.git
-[submodule "modules/Presentations.Statistics"]
-	path = modules/Presentations.Statistics
-	url = git@github.com:vanNijnatten/Presentations.Statistics.git
-[submodule "modules/Presentations.Programming"]
-	path = modules/Presentations.Programming
-	url = git@github.com:vanNijnatten/Presentations.Programming.git
+
